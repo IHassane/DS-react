@@ -9,8 +9,7 @@ class Voiture extends React.Component {
     render() {
         return (
             <div>
-                <h1>Voiture :</h1>
-                <Vehicule marque={this.props.marque} anneFab={this.props.anneFab} couleur={this.props.couleur} klaxon={this.props.klaxon}/>
+                <Vehicule marque={this.props.marque} anneeFab={this.props.anneeFab} couleur={this.props.couleur} klaxon={this.props.klaxon}/>
             </div>
         )
     }
